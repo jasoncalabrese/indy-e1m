@@ -1,6 +1,40 @@
 [
   {
     "trend_arrow": "45_DOWN", 
+    "display_time": "2017-02-05T23:03:17-08:00", 
+    "noise": 1, 
+    "system_time": "2017-02-06T06:48:31-08:00", 
+    "direction": "FortyFiveDown", 
+    "sgv": 157, 
+    "dateString": "2017-02-05T23:03:17-08:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 162208, 
+    "rssi": 193, 
+    "date": 1486364597000, 
+    "filtered": 170464, 
+    "_id": "5898200e65110bbfc1956e84", 
+    "type": "sgv", 
+    "glucose": 157
+  }, 
+  {
+    "trend_arrow": "45_DOWN", 
+    "display_time": "2017-02-05T23:03:17-08:00", 
+    "noise": 1, 
+    "system_time": "2017-02-06T05:54:21-08:00", 
+    "direction": "FortyFiveDown", 
+    "sgv": 157, 
+    "dateString": "2017-02-05T23:03:17-08:00", 
+    "device": "openaps://indy-ex2/cgm", 
+    "unfiltered": 162208, 
+    "rssi": 196, 
+    "date": 1486364597000, 
+    "filtered": 170464, 
+    "_id": "58981ff465110bbfc1956e83", 
+    "type": "sgv", 
+    "glucose": 157
+  }, 
+  {
+    "trend_arrow": "45_DOWN", 
     "display_time": "2017-02-05T22:58:17-08:00", 
     "noise": 1, 
     "system_time": "2017-02-06T05:49:22-08:00", 
@@ -1486,11 +1520,11 @@
     "direction": "FortyFiveUp", 
     "sgv": 141, 
     "dateString": "2017-02-05T19:23:18-08:00", 
-    "date": 1486351398000, 
-    "unfiltered": 151872, 
-    "filtered": 147488, 
     "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 151872, 
     "rssi": 193, 
+    "date": 1486351398000, 
+    "filtered": 147488, 
     "_id": "5897ecd465110bbfc1956e0a", 
     "type": "sgv", 
     "glucose": 141
@@ -2327,22 +2361,5 @@
     "_id": "5897ccac65110bbfc1956dc6", 
     "type": "sgv", 
     "glucose": 129
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2017-02-05T17:02:23-08:00", 
-    "noise": 1, 
-    "system_time": "2017-02-06T01:01:35-08:00", 
-    "direction": "Flat", 
-    "sgv": 130, 
-    "dateString": "2017-02-05T17:02:23-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 133056, 
-    "rssi": 193, 
-    "date": 1486342943000, 
-    "filtered": 135328, 
-    "_id": "5897cbfc65110bbfc1956dc5", 
-    "type": "sgv", 
-    "glucose": 130
   }
 ]
