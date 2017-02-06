@@ -1,17 +1,17 @@
 {
-  "bg": 101, 
+  "bg": 96, 
   "temp": "absolute", 
-  "snoozeBG": 139, 
+  "snoozeBG": 136, 
   "predBGs": {
     "IOB": [
-      101, 
-      93, 
-      86, 
-      78, 
-      69, 
-      61, 
-      53, 
-      44, 
+      96, 
+      90, 
+      84, 
+      77, 
+      70, 
+      63, 
+      55, 
+      47, 
       39, 
       39, 
       39, 
@@ -19,8 +19,10 @@
       39
     ]
   }, 
-  "reason": "COB: undefined, Dev: -21, BGI: -3.82, ISF: 90, Target: 100; Eventual BG -120 < 100, bolus snooze: eventual BG range -120-139; setting current basal of 0.6 as temp, but 27m left and 0.65 ~ req 0.6U/hr: no action required", 
-  "eventualBG": -120, 
-  "tick": -8, 
-  "IOB": 2.22
+  "rate": 0.6, 
+  "reason": "COB: undefined, Dev: -10, BGI: -4.46, ISF: 90, Target: 100; Eventual BG -108 < 100, bolus snooze: eventual BG range -108-136; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+  "eventualBG": -108, 
+  "duration": 30, 
+  "tick": -5, 
+  "IOB": 2.158
 }
