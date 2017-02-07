@@ -1,14 +1,1 @@
-[
-  {
-    "carbs": null, 
-    "eventType": "Temporary Target", 
-    "created_at": "2017-02-06T05:05:26.912Z", 
-    "targetBottom": 80, 
-    "enteredBy": "Maker", 
-    "targetTop": 80, 
-    "reason": "Eating Soon", 
-    "insulin": null, 
-    "duration": 90, 
-    "_id": "5898041665110bbfc1956e40"
-  }
-]
+[]
