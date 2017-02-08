@@ -7,144 +7,30 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-08T05:11:07.000Z", 
+      "timestamp": "2017-02-08T05:22:27.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 124.15, 
-    "clock": "2017-02-07T21:11:12-08:00"
+    "reservoir": 123.9, 
+    "clock": "2017-02-07T21:22:28-08:00"
   }, 
   "uploader": {
-    "battery": 69, 
-    "batteryVoltage": 3871
+    "battery": 100, 
+    "batteryVoltage": 4373
   }, 
   "openaps": {
     "suggested": {
-      "bg": 110, 
-      "temp": "absolute", 
-      "snoozeBG": 108, 
-      "timestamp": "2017-02-08T05:12:50.000Z", 
-      "predBGs": {
-        "COB": [
-          110, 
-          109, 
-          108, 
-          105, 
-          102, 
-          98, 
-          94, 
-          89, 
-          83, 
-          78, 
-          74, 
-          69, 
-          66, 
-          63, 
-          60, 
-          57, 
-          56, 
-          54, 
-          53, 
-          52, 
-          52, 
-          52, 
-          53, 
-          54, 
-          55, 
-          57, 
-          59, 
-          62, 
-          65, 
-          68, 
-          72, 
-          75, 
-          78, 
-          81, 
-          84, 
-          87, 
-          90, 
-          93, 
-          96, 
-          99, 
-          102, 
-          105, 
-          107
-        ], 
-        "aCOB": [
-          110, 
-          114, 
-          117, 
-          120, 
-          121, 
-          121, 
-          121, 
-          120, 
-          118, 
-          116, 
-          115, 
-          114, 
-          114, 
-          114, 
-          114, 
-          114, 
-          114, 
-          115, 
-          116, 
-          117, 
-          119, 
-          121, 
-          122, 
-          125, 
-          127, 
-          130, 
-          133, 
-          136, 
-          140, 
-          144, 
-          147, 
-          150, 
-          153, 
-          156, 
-          158, 
-          161, 
-          163, 
-          165, 
-          166, 
-          168, 
-          169, 
-          170, 
-          171
-        ], 
-        "IOB": [
-          110, 
-          109, 
-          107, 
-          103, 
-          99, 
-          93, 
-          86, 
-          79, 
-          70, 
-          62, 
-          54, 
-          46, 
-          39
-        ]
-      }, 
-      "reason": "COB: 28, Dev: 29, BGI: -5.64, ISF: 91, Target: 100; Eventual BG 107 > 100 but Min. Delta -0.78 < Exp. Delta 0.8, temp 1.2 ~ req 1.2U/hr", 
-      "COB": 28, 
-      "eventualBG": 107, 
-      "tick": "+0", 
-      "IOB": 1.708
+      "timestamp": "2017-02-08T05:24:19.000Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Tue Feb 07 2017 21:13:09 GMT-0800 (PST) but your system time is Tue Feb 07 2017 21:24:19 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": -0.15, 
-      "timestamp": "2017-02-08T05:11:12.000Z", 
-      "activity": 0.0124, 
-      "basaliob": 0.004, 
+      "netbasalinsulin": -0.05, 
+      "timestamp": "2017-02-08T05:22:28.000Z", 
+      "activity": 0.0159, 
+      "basaliob": 0.005, 
       "hightempinsulin": 0.35, 
-      "bolussnooze": 0.913, 
-      "iob": 1.708
+      "bolussnooze": 0.523, 
+      "iob": 1.54
     }, 
     "enacted": {
       "requested": {
@@ -169,43 +55,28 @@
   "mmtune": {
     "scanDetails": [
       [
-        "916.540", 
-        3, 
-        -96
-      ], 
-      [
-        "916.564", 
-        5, 
-        -87
-      ], 
-      [
         "916.588", 
         5, 
-        -88
+        -38
       ], 
       [
         "916.612", 
-        4, 
-        -93
+        5, 
+        -36
       ], 
       [
         "916.636", 
         5, 
-        -87
+        -35
       ], 
       [
         "916.660", 
-        5, 
-        -81
-      ], 
-      [
-        "916.684", 
-        5, 
-        -91
+        3, 
+        -61
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2017-02-08T05:10:27.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2017-02-08T05:21:43.000Z", 
     "usedDefault": false
   }
 }
