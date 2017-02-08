@@ -6,8 +6,8 @@
   }, 
   "bg": 110, 
   "temp": "absolute", 
-  "snoozeBG": 105, 
-  "timestamp": "2017-02-07T20:00:08.038085", 
+  "snoozeBG": 110, 
+  "timestamp": "2017-02-07T20:07:39.917376", 
   "predBGs": {
     "IOB": [
       110, 
@@ -15,7 +15,7 @@
       109, 
       108, 
       108, 
-      108, 
+      107, 
       107, 
       107, 
       107, 
@@ -25,16 +25,16 @@
       108, 
       109, 
       109, 
-      110, 
       110, 
       111, 
-      112, 
+      111, 
       112, 
       113, 
-      114, 
+      113, 
       114, 
       115, 
       115, 
+      116, 
       116, 
       117, 
       117, 
@@ -46,12 +46,12 @@
       120
     ]
   }, 
-  "reason": "COB: 0, Dev: -7, BGI: 0.41, ISF: 91, Target: 100; Eventual BG 105 > 100 but Min. Delta -0.72 < Exp. Delta 0.1; setting current basal of 0.9 as temp. Setting neutral temp basal of 0.9U/hr", 
+  "reason": "COB: 0, Dev: -6, BGI: 0.36, ISF: 91, Target: 100; Eventual BG 110 > 100 but Min. Delta -0.72 < Exp. Delta -0.2; setting current basal of 0.9 as temp. Setting neutral temp basal of 0.9U/hr", 
   "rate": 0.35, 
   "COB": 0, 
-  "eventualBG": 105, 
+  "eventualBG": 110, 
   "recieved": false, 
-  "duration": 22, 
+  "duration": 14, 
   "tick": "+0", 
-  "IOB": -0.026
+  "IOB": -0.071
 }
