@@ -1,5 +1,52 @@
 [
   {
+    "carbs": "18", 
+    "bg": "73", 
+    "ratio": "20", 
+    "timestamp": "2017-02-09T10:28:40-08:00", 
+    "created_at": "2017-02-09T10:28:40-08:00", 
+    "wizard": {
+      "_type": "BolusWizard", 
+      "bg": 73, 
+      "bg_target_low": 100, 
+      "_description": "BolusWizard 2017-02-09T10:28:40 head[2], body[15] op[0x5b]", 
+      "timestamp": "2017-02-09T10:28:40-08:00", 
+      "_body": "125000c85a64f40024f800000018b4", 
+      "appended": [
+        {
+          "_type": "UnabsorbedInsulinBolus", 
+          "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+          "_body": "", 
+          "_head": "5c0528c9c0", 
+          "data": [
+            {
+              "amount": 1, 
+              "age": 201
+            }
+          ], 
+          "_date": ""
+        }
+      ], 
+      "bg_target_high": 180, 
+      "carb_ratio": 20, 
+      "food_estimate": 0.9, 
+      "unabsorbed_insulin_total": 0, 
+      "correction_estimate": 50.9, 
+      "carb_input": 18, 
+      "_head": "5b49", 
+      "bolus_estimate": 0.6, 
+      "sensitivity": 90, 
+      "_date": "289c0a0911"
+    }, 
+    "enteredBy": "openaps://medtronic/723", 
+    "insulin": 0, 
+    "eventType": "Carb Correction", 
+    "glucose": "73", 
+    "notes": "Food estimate 0.9\nCorrection estimate 50.9\nBolus estimate 0.6\nTarget low 100\nTarget high 180\nHypothetical glucose delta 0\nGlucose was: 73", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Carb Correction", 
+    "glucoseType": "BolusWizard"
+  }, 
+  {
     "_type": "CalBGForPH", 
     "_description": "CalBGForPH 2017-02-09T10:21:10 head[2], body[0] op[0x0a]", 
     "timestamp": "2017-02-09T10:21:10-08:00", 
