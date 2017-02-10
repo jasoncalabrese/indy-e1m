@@ -267,52 +267,5 @@
     "notes": "Normal bolus with wizard.\nProgrammed bolus 0.6\nDelivered bolus 0.6\nPercent delivered:  100%\nFood estimate 0.9\nCorrection estimate 50.9\nBolus estimate 0.6\nTarget low 100\nTarget high 180\nHypothetical glucose delta -54\nGlucose was: 73", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus", 
     "glucose": 73
-  }, 
-  {
-    "carbs": 14, 
-    "bg": "85", 
-    "ratio": "12", 
-    "bolus": {
-      "programmed": 1, 
-      "_type": "Bolus", 
-      "_description": "Bolus 2017-02-09T07:10:40 head[8], body[0] op[0x01]", 
-      "timestamp": "2017-02-09T07:10:40-08:00", 
-      "_body": "", 
-      "_head": "0100280028000000", 
-      "amount": 1, 
-      "unabsorbed": 0, 
-      "duration": 0, 
-      "type": "normal", 
-      "_date": "288a270911"
-    }, 
-    "timestamp": "2017-02-09T07:10:40-08:00", 
-    "created_at": "2017-02-09T07:10:40-08:00", 
-    "glucoseType": "BolusWizard", 
-    "enteredBy": "openaps://medtronic/723", 
-    "wizard": {
-      "_type": "BolusWizard", 
-      "bg": 85, 
-      "bg_target_low": 100, 
-      "_description": "BolusWizard 2017-02-09T07:10:40 head[2], body[15] op[0x5b]", 
-      "timestamp": "2017-02-09T07:10:40-08:00", 
-      "_body": "0e5000785a64fa002ef800000028b4", 
-      "bg_target_high": 180, 
-      "carb_ratio": 12, 
-      "food_estimate": 1.15, 
-      "unabsorbed_insulin_total": 0, 
-      "correction_estimate": 51.05, 
-      "carb_input": 14, 
-      "_head": "5b55", 
-      "bolus_estimate": 1, 
-      "sensitivity": 90, 
-      "_date": "288a070911"
-    }, 
-    "insulin": 1, 
-    "eventType": "Meal Bolus", 
-    "duration": 0, 
-    "_id": "589c873665110bbfc19575e5", 
-    "notes": "Normal bolus with wizard.\nProgrammed bolus 1\nDelivered bolus 1\nPercent delivered:  100%\nFood estimate 1.15\nCorrection estimate 51.05\nBolus estimate 1\nTarget low 100\nTarget high 180\nHypothetical glucose delta -90\nGlucose was: 85", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus", 
-    "glucose": 85
   }
 ]
