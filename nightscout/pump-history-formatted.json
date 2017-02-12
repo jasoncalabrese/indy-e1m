@@ -3,6 +3,35 @@
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
+      "_description": "TempBasal 2017-02-11T21:40:30 head[2], body[1] op[0x33]", 
+      "timestamp": "2017-02-11T21:40:30-08:00", 
+      "_body": "00", 
+      "_head": "336e", 
+      "rate": 2.75, 
+      "_date": "1ea8154b11"
+    }, 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2017-02-11T21:40:30 head[2], body[0] op[0x16]", 
+      "timestamp": "2017-02-11T21:40:30-08:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "1ea8154b11"
+    }, 
+    "created_at": "2017-02-11T21:40:30-08:00", 
+    "enteredBy": "openaps://medtronic/723", 
+    "rate": 2.75, 
+    "eventType": "Temp Basal", 
+    "timestamp": "2017-02-11T21:40:30-08:00", 
+    "duration": "30", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": "2.75"
+  }, 
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
       "_description": "TempBasal 2017-02-11T21:31:44 head[2], body[1] op[0x33]", 
       "timestamp": "2017-02-11T21:31:44-08:00", 
       "_body": "00", 
@@ -1094,34 +1123,5 @@
     "duration": "30", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
     "absolute": "0"
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2017-02-11T15:37:29 head[2], body[1] op[0x33]", 
-      "timestamp": "2017-02-11T15:37:29-08:00", 
-      "_body": "00", 
-      "_head": "3319", 
-      "rate": 0.625, 
-      "_date": "1da50f4b11"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2017-02-11T15:37:29 head[2], body[0] op[0x16]", 
-      "timestamp": "2017-02-11T15:37:29-08:00", 
-      "_body": "", 
-      "_head": "1601", 
-      "duration (min)": 30, 
-      "_date": "1da50f4b11"
-    }, 
-    "created_at": "2017-02-11T15:37:29-08:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "rate": 0.625, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2017-02-11T15:37:29-08:00", 
-    "duration": "30", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "0.625"
   }
 ]
