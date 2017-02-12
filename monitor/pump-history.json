@@ -2,6 +2,25 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2017-02-11T21:22:25 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-02-11T21:22:25", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "1996154b11"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-02-11T21:22:25 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-02-11T21:22:25", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "1996154b11"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2017-02-11T21:01:26 head[2], body[0] op[0x16]", 
     "timestamp": "2017-02-11T21:01:26", 
     "_body": "", 
@@ -725,56 +744,5 @@
     "_head": "3352", 
     "rate": 2.05, 
     "_date": "109e0f4b11"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "link": "c23647", 
-    "_description": "BGReceived 2017-02-11T15:18:39 head[2], body[3] op[0x3f]", 
-    "timestamp": "2017-02-11T15:18:39", 
-    "_body": "c23647", 
-    "_head": "3f1c", 
-    "amount": 224, 
-    "_date": "27920f6b11"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2017-02-11T15:18:39 head[2], body[0] op[0x0a]", 
-    "timestamp": "2017-02-11T15:18:39", 
-    "_body": "", 
-    "_head": "0ae0", 
-    "amount": 224, 
-    "_date": "27922f6b11"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2017-02-11T15:08:19 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-02-11T15:08:19", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "13880f4b11"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-02-11T15:08:19 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-02-11T15:08:19", 
-    "_body": "00", 
-    "_head": "3346", 
-    "rate": 1.75, 
-    "_date": "13880f4b11"
-  }, 
-  {
-    "programmed": 0.3, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2017-02-11T15:07:02 head[8], body[0] op[0x01]", 
-    "timestamp": "2017-02-11T15:07:02", 
-    "_body": "", 
-    "_head": "01000c000c000c00", 
-    "amount": 0.3, 
-    "unabsorbed": 0.3, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "02872f6b11"
   }
 ]
