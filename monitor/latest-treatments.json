@@ -1,31 +1,31 @@
 {
-  "_id": "58a225a465110bbfc195807a",
+  "_id": "58a227bc65110bbfc195807d",
   "duration": 30,
   "raw_duration": {
     "_type": "TempBasalDuration",
-    "_description": "TempBasalDuration 2017-02-13T13:26:44 head[2], body[0] op[0x16]",
-    "timestamp": "2017-02-13T13:26:44-08:00",
+    "_description": "TempBasalDuration 2017-02-13T13:37:26 head[2], body[0] op[0x16]",
+    "timestamp": "2017-02-13T13:37:26-08:00",
     "_body": "",
     "_head": "1601",
     "duration (min)": 30,
-    "_date": "2c9a0d4d11"
+    "_date": "1aa50d4d11"
   },
-  "timestamp": "2017-02-13T13:26:44-08:00",
-  "absolute": 1.35,
-  "rate": 1.35,
+  "timestamp": "2017-02-13T13:37:26-08:00",
+  "absolute": 1.95,
+  "rate": 1.95,
   "raw_rate": {
     "_type": "TempBasal",
     "temp": "absolute",
-    "_description": "TempBasal 2017-02-13T13:26:44 head[2], body[1] op[0x33]",
-    "timestamp": "2017-02-13T13:26:44-08:00",
+    "_description": "TempBasal 2017-02-13T13:37:26 head[2], body[1] op[0x33]",
+    "timestamp": "2017-02-13T13:37:26-08:00",
     "_body": "00",
-    "_head": "3336",
-    "rate": 1.35,
-    "_date": "2c9a0d4d11"
+    "_head": "334e",
+    "rate": 1.95,
+    "_date": "1aa50d4d11"
   },
   "eventType": "Temp Basal",
   "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
-  "created_at": "2017-02-13T13:26:44-08:00",
+  "created_at": "2017-02-13T13:37:26-08:00",
   "enteredBy": "openaps://medtronic/723",
   "carbs": null,
   "insulin": null
