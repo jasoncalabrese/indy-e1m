@@ -1301,22 +1301,5 @@
     "_id": "58a330db65110bbfc195828d", 
     "type": "sgv", 
     "glucose": 160
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2017-02-14T08:22:54-08:00", 
-    "noise": 1, 
-    "system_time": "2017-02-14T16:22:03-08:00", 
-    "direction": "Flat", 
-    "sgv": 164, 
-    "dateString": "2017-02-14T08:22:54-08:00", 
-    "date": 1487089374000, 
-    "unfiltered": 170816, 
-    "filtered": 169760, 
-    "device": "openaps://indy-e1/cgm", 
-    "rssi": 194, 
-    "_id": "58a32f7365110bbfc195828b", 
-    "type": "sgv", 
-    "glucose": 164
   }
 ]
