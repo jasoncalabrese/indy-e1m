@@ -1,18 +1,56 @@
 {
-  "_id": "58a3677365110bbfc19582d9",
-  "_type": "CalBGForPH",
-  "_description": "CalBGForPH 2017-02-14T12:21:33 head[2], body[0] op[0x0a]",
-  "timestamp": "2017-02-14T12:21:33-08:00",
-  "_body": "",
-  "_head": "0a52",
-  "amount": 82,
-  "_date": "21952c6e11",
-  "eventType": "BG Check",
+  "_id": "58a3685365110bbfc19582db",
+  "carbs": 40,
+  "ratio": "20",
+  "bg": "82",
   "glucose": 82,
-  "glucoseType": "Finger",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
-  "created_at": "2017-02-14T12:21:33-08:00",
+  "glucoseType": "BolusWizard",
+  "wizard": {
+    "_type": "BolusWizard",
+    "bg": 82,
+    "_description": "BolusWizard 2017-02-14T12:28:06 head[2], body[15] op[0x5b]",
+    "timestamp": "2017-02-14T12:28:06-08:00",
+    "_body": "285000c85a64f80050f800060048b4",
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus",
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]",
+        "_body": "",
+        "_head": "5c0b098dc01b97c03455d0",
+        "data": [
+          {
+            "amount": 0.225,
+            "age": 141
+          },
+          {
+            "amount": 0.675,
+            "age": 151
+          },
+          {
+            "amount": 1.3,
+            "age": 341
+          }
+        ],
+        "_date": ""
+      }
+    ],
+    "bg_target_high": 180,
+    "sensitivity": 90,
+    "carb_input": 40,
+    "carb_ratio": 20,
+    "food_estimate": 2,
+    "unabsorbed_insulin_total": 0.15,
+    "correction_estimate": 51,
+    "bg_target_low": 100,
+    "_head": "5b52",
+    "bolus_estimate": 1.8,
+    "_date": "069c0c0e11"
+  },
+  "timestamp": "2017-02-14T12:28:06-08:00",
+  "created_at": "2017-02-14T12:28:06-08:00",
+  "eventType": "Carb Correction",
+  "notes": "Food estimate 2\nCorrection estimate 51\nBolus estimate 1.8\nTarget low 100\nTarget high 180\nHypothetical glucose delta 0\nGlucose was: 82",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Carb Correction",
   "enteredBy": "openaps://medtronic/723",
-  "carbs": null,
   "insulin": null
 }
