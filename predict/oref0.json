@@ -14,15 +14,15 @@
       82, 
       82, 
       82, 
-      82, 
       83, 
       83, 
       84, 
-      85, 
+      84, 
       85, 
       86, 
+      86, 
       87, 
-      87, 
+      88, 
       88, 
       88, 
       89, 
@@ -33,9 +33,11 @@
       90
     ]
   }, 
-  "reason": "COB: 0, Dev: -5, BGI: -0.99, ISF: 90, Target: 80; Eventual BG 90 > 80 but Min. Delta -1.77 < Exp. Delta -1.5, temp 1.175 ~ req 1.2U/hr", 
+  "rate": 0.75, 
+  "reason": "COB: 0, Dev: -6, BGI: -0.76, ISF: 90, Target: 100; Eventual BG 90 < 100, setting 0.75U/hr", 
   "COB": 0, 
   "eventualBG": 90, 
+  "duration": 30, 
   "tick": "+1", 
-  "IOB": -0.072
+  "IOB": -0.08
 }
