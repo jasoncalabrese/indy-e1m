@@ -1,6 +1,23 @@
 [
   {
     "trend_arrow": "FLAT", 
+    "display_time": "2017-02-17T10:12:45-08:00", 
+    "noise": 1, 
+    "system_time": "2017-02-17T18:11:54-08:00", 
+    "direction": "Flat", 
+    "sgv": 87, 
+    "dateString": "2017-02-17T10:12:45-08:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 104832, 
+    "rssi": 196, 
+    "date": 1487355165000, 
+    "filtered": 111824, 
+    "_id": "58a73d5465110bbfc1958a3d", 
+    "type": "sgv", 
+    "glucose": 87
+  }, 
+  {
+    "trend_arrow": "FLAT", 
     "display_time": "2017-02-17T10:07:45-08:00", 
     "noise": 1, 
     "system_time": "2017-02-17T18:06:54-08:00", 
@@ -534,11 +551,11 @@
     "direction": "Flat", 
     "sgv": 136, 
     "dateString": "2017-02-17T07:37:29-08:00", 
-    "device": "openaps://indy-ex2/cgm", 
-    "unfiltered": 149728, 
-    "rssi": 190, 
     "date": 1487345849000, 
+    "unfiltered": 149728, 
     "filtered": 155104, 
+    "device": "openaps://indy-ex2/cgm", 
+    "rssi": 190, 
     "_id": "58a7198465110bbfc1958a0d", 
     "type": "sgv", 
     "glucose": 136
@@ -568,11 +585,11 @@
     "direction": "FortyFiveDown", 
     "sgv": 138, 
     "dateString": "2017-02-17T07:32:29-08:00", 
-    "date": 1487345549000, 
-    "unfiltered": 152064, 
-    "filtered": 160192, 
     "device": "openaps://indy-ex2/cgm", 
+    "unfiltered": 152064, 
     "rssi": 167, 
+    "date": 1487345549000, 
+    "filtered": 160192, 
     "_id": "58a7198465110bbfc1958a0e", 
     "type": "sgv", 
     "glucose": 138
@@ -7852,22 +7869,5 @@
     "_id": "58a5ed6365110bbfc19587b8", 
     "type": "sgv", 
     "glucose": 115
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2017-02-16T10:12:48-08:00", 
-    "noise": 1, 
-    "system_time": "2017-02-16T18:11:57-08:00", 
-    "direction": "Flat", 
-    "sgv": 114, 
-    "dateString": "2017-02-16T10:12:48-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 126832, 
-    "rssi": 182, 
-    "date": 1487268768000, 
-    "filtered": 123472, 
-    "_id": "58a5ebdb65110bbfc19587b6", 
-    "type": "sgv", 
-    "glucose": 114
   }
 ]
