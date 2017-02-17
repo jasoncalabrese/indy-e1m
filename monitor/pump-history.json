@@ -1,5 +1,16 @@
 [
   {
+    "_type": "Prime", 
+    "type": "manual", 
+    "_description": "Prime 2017-02-16T20:32:26 head[5], body[0] op[0x03]", 
+    "timestamp": "2017-02-16T20:32:26", 
+    "_body": "", 
+    "fixed": 0.0, 
+    "_head": "030000003c", 
+    "amount": 6.0, 
+    "_date": "1aa0341011"
+  }, 
+  {
     "_type": "Rewind", 
     "_description": "Rewind 2017-02-16T20:22:18 head[2], body[0] op[0x21]", 
     "timestamp": "2017-02-16T20:22:18", 
