@@ -1,6 +1,44 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-02-18T14:54:31 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-02-18T14:54:31-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "1fb60e5211"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-02-18T14:54:31 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-02-18T14:54:31-08:00", 
+    "_body": "00", 
+    "_head": "3374", 
+    "rate": 2.9, 
+    "_date": "1fb60e5211"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-02-18T14:53:27 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-02-18T14:53:27-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "1bb50e5211"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-02-18T14:53:27 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-02-18T14:53:27-08:00", 
+    "_body": "00", 
+    "_head": "335f", 
+    "rate": 2.375, 
+    "_date": "1bb50e5211"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2017-02-18T14:45:26 head[2], body[0] op[0x16]", 
     "timestamp": "2017-02-18T14:45:26-08:00", 
     "_body": "", 
@@ -1005,35 +1043,5 @@
     "_head": "3330", 
     "rate": 1.2, 
     "_date": "04b8085211"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "_description": "BGReceived 2017-02-18T08:50:13 head[2], body[3] op[0x3f]", 
-    "timestamp": "2017-02-18T08:50:13-08:00", 
-    "_body": "c23647", 
-    "_head": "3f0d", 
-    "amount": 105, 
-    "link": "c23647", 
-    "_date": "0db2287211"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2017-02-18T08:50:13 head[2], body[0] op[0x0a]", 
-    "timestamp": "2017-02-18T08:50:13-08:00", 
-    "_body": "", 
-    "_head": "0a69", 
-    "amount": 105, 
-    "_date": "0db2287211"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "_description": "BasalProfileStart 2017-02-18T08:48:24 head[2], body[3] op[0x7b]", 
-    "timestamp": "2017-02-18T08:48:24-08:00", 
-    "_body": "0e1900", 
-    "profile_index": 4, 
-    "_head": "7b04", 
-    "rate": 0.625, 
-    "offset": 25200000, 
-    "_date": "18b0081211"
   }
 ]
