@@ -1,32 +1,47 @@
 [
   {
-    "created_at": "2017-02-18T16:10:00.305Z", 
+    "created_at": "2017-02-18T16:13:57.189Z", 
     "mmtune": {
       "scanDetails": [
         [
-          "916.564", 
-          1, 
+          "916.540", 
+          2, 
           -98
         ], 
         [
+          "916.564", 
+          5, 
+          -87
+        ], 
+        [
+          "916.588", 
+          5, 
+          -86
+        ], 
+        [
           "916.612", 
-          4, 
-          -94
+          5, 
+          -84
         ], 
         [
           "916.636", 
           5, 
-          -90
+          -84
         ], 
         [
           "916.660", 
-          1, 
-          -98
+          5, 
+          -87
+        ], 
+        [
+          "916.684", 
+          5, 
+          -88
         ]
       ], 
       "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2017-02-18T16:07:04.000Z"
+      "timestamp": "2017-02-18T16:11:19.000Z"
     }, 
     "pump": {
       "battery": {
@@ -35,41 +50,19 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-02-18T16:07:29.000Z", 
+        "timestamp": "2017-02-18T16:11:31.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 95.1, 
-      "clock": "2017-02-18T08:07:53-08:00"
+      "reservoir": 95.075, 
+      "clock": "2017-02-18T08:12:00-08:00"
     }, 
     "openaps": {
       "suggested": {
         "bg": 104, 
         "temp": "absolute", 
-        "snoozeBG": 99, 
-        "timestamp": "2017-02-18T16:09:23.000Z", 
-        "rate": 0.45, 
-        "reason": "COB: 0, Dev: -14, BGI: -0.53, ISF: 97, Target: 103; Eventual BG 99 < 103, setting 0.45U/hr", 
-        "COB": 0, 
-        "eventualBG": 99, 
-        "duration": 30, 
-        "tick": -2, 
-        "IOB": -0.104
-      }, 
-      "iob": {
-        "netbasalinsulin": -0.3, 
-        "timestamp": "2017-02-18T16:07:53.000Z", 
-        "activity": 0.0011, 
-        "basaliob": -0.104, 
-        "hightempinsulin": 0.3, 
-        "bolussnooze": 0, 
-        "iob": -0.104
-      }, 
-      "enacted": {
-        "bg": 104, 
-        "temp": "absolute", 
-        "snoozeBG": 99, 
-        "recieved": true, 
+        "snoozeBG": 100, 
+        "timestamp": "2017-02-18T16:13:39.000Z", 
         "predBGs": {
           "IOB": [
             104, 
@@ -81,29 +74,50 @@
             91, 
             90, 
             89, 
-            88, 
-            88, 
-            88, 
+            89, 
             89, 
             89, 
             90, 
             91, 
-            91, 
+            92, 
             92, 
             93, 
             94, 
-            94, 
-            95, 
             96, 
             97, 
-            97, 
-            98, 
             98, 
             99, 
             99, 
-            100
+            100, 
+            101, 
+            102, 
+            103, 
+            103, 
+            104, 
+            104, 
+            105
           ]
         }, 
+        "reason": "COB: 0, Dev: -14, BGI: -0.53, ISF: 97, Target: 103; Eventual BG 100 < 103, temp 0.45 ~< req 0.45U/hr", 
+        "COB": 0, 
+        "eventualBG": 100, 
+        "tick": -2, 
+        "IOB": -0.108
+      }, 
+      "iob": {
+        "netbasalinsulin": -0.3, 
+        "timestamp": "2017-02-18T16:12:00.000Z", 
+        "activity": 0.0011, 
+        "basaliob": -0.108, 
+        "hightempinsulin": 0.3, 
+        "bolussnooze": 0, 
+        "iob": -0.108
+      }, 
+      "enacted": {
+        "bg": 104, 
+        "temp": "absolute", 
+        "snoozeBG": 99, 
+        "recieved": true, 
         "reason": "COB: 0, Dev: -14, BGI: -0.53, ISF: 97, Target: 103; Eventual BG 99 < 103, setting 0.45U/hr", 
         "rate": 0.45, 
         "COB": 0, 
@@ -115,10 +129,10 @@
       }
     }, 
     "uploader": {
-      "battery": 90, 
-      "batteryVoltage": 4082
+      "battery": 89, 
+      "batteryVoltage": 4075
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58a871d870bfdb4d692ea956"
+    "_id": "58a872c570bfdb4d692ea958"
   }
 ]
