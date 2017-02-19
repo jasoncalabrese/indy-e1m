@@ -1,5 +1,18 @@
 [
   {
+    "programmed": 0.9, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2017-02-18T21:32:12 head[8], body[0] op[0x01]", 
+    "timestamp": "2017-02-18T21:32:12-08:00", 
+    "_body": "", 
+    "_head": "0100240024005a00", 
+    "amount": 0.9, 
+    "unabsorbed": 2.25, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "0ca0357211"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2017-02-18T21:29:34 head[2], body[0] op[0x16]", 
     "timestamp": "2017-02-18T21:29:34-08:00", 
