@@ -1,10 +1,9 @@
 {
-  "bg": 99, 
+  "bg": 98, 
   "temp": "absolute", 
-  "snoozeBG": 100, 
+  "snoozeBG": 99, 
   "predBGs": {
     "IOB": [
-      99, 
       98, 
       97, 
       96, 
@@ -12,9 +11,11 @@
       95, 
       94, 
       94, 
-      94, 
-      94, 
-      94, 
+      93, 
+      93, 
+      93, 
+      93, 
+      93, 
       94, 
       94, 
       94, 
@@ -27,6 +28,8 @@
       97, 
       97, 
       97, 
+      97, 
+      98, 
       98, 
       98, 
       98, 
@@ -34,9 +37,9 @@
       99
     ]
   }, 
-  "reason": "COB: 0, Dev: -6, BGI: 0.18, ISF: 90, Target: 100; Eventual BG 100 > 100 but Min. Delta -1.00 < Exp. Delta 0.2; setting current basal of 0.625 as temp, but 25m left and 0.525 ~ req 0.625U/hr: no action required", 
+  "reason": "COB: 0, Dev: -6, BGI: 0.13, ISF: 90, Target: 100; Eventual BG 99 < 100, temp 0.525 ~< req 0.575U/hr", 
   "COB": 0, 
-  "eventualBG": 100, 
+  "eventualBG": 99, 
   "tick": -1, 
-  "IOB": -0.075
+  "IOB": -0.073
 }
