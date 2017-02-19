@@ -7,30 +7,30 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-19T14:41:57.000Z", 
+      "timestamp": "2017-02-19T14:46:14.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 63.95, 
-    "clock": "2017-02-19T06:42:26-08:00"
+    "reservoir": 63.875, 
+    "clock": "2017-02-19T06:46:43-08:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4377
+    "batteryVoltage": 4367
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-02-19T14:43:59.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Feb 19 2017 06:32:39 GMT-0800 (PST) but your system time is Sun Feb 19 2017 06:43:59 GMT-0800 (PST)"
+      "timestamp": "2017-02-19T14:48:26.000Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Feb 19 2017 06:32:39 GMT-0800 (PST) but your system time is Sun Feb 19 2017 06:48:26 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": 0.15, 
-      "timestamp": "2017-02-19T14:42:26.000Z", 
+      "netbasalinsulin": 0.2, 
+      "timestamp": "2017-02-19T14:46:43.000Z", 
       "activity": -0.0009, 
-      "basaliob": -0.009, 
-      "hightempinsulin": 0.4, 
+      "basaliob": 0.045, 
+      "hightempinsulin": 0.45, 
       "bolussnooze": 0, 
-      "iob": -0.009
+      "iob": 0.045
     }, 
     "enacted": {
       "bg": 105, 
@@ -52,41 +52,41 @@
       [
         "916.564", 
         5, 
-        -90
+        -93
       ], 
       [
         "916.588", 
         5, 
-        -85
+        -90
       ], 
       [
         "916.612", 
         5, 
-        -84
+        -89
       ], 
       [
         "916.636", 
         5, 
-        -84
+        -89
       ], 
       [
         "916.660", 
         5, 
-        -84
+        -89
       ], 
       [
         "916.684", 
         5, 
-        -85
+        -90
       ], 
       [
         "916.708", 
-        5, 
-        -90
+        3, 
+        -96
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2017-02-19T14:41:36.000Z", 
+    "timestamp": "2017-02-19T14:45:53.000Z", 
     "usedDefault": false
   }
 }
