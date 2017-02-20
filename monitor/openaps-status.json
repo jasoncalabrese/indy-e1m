@@ -7,82 +7,84 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-20T12:24:16.000Z", 
+      "timestamp": "2017-02-20T12:31:37.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 116.925, 
-    "clock": "2017-02-20T04:24:18-08:00"
+    "reservoir": 116.8, 
+    "clock": "2017-02-20T04:32:07-08:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4373
+    "batteryVoltage": 4376
   }, 
   "openaps": {
     "suggested": {
-      "bg": 185, 
+      "bg": 186, 
       "temp": "absolute", 
-      "snoozeBG": 131, 
-      "timestamp": "2017-02-20T12:26:59.000Z", 
-      "reason": "COB: 0, Dev: 30, BGI: -5.73, ISF: 82, Target: 96; Eventual BG 131 >= 96, temp 0.75<1.4U/hr", 
-      "rate": 1.4, 
-      "COB": 0, 
-      "eventualBG": 131, 
-      "duration": 30, 
-      "tick": "+1", 
-      "IOB": 1.029
-    }, 
-    "iob": {
-      "netbasalinsulin": 2.1, 
-      "timestamp": "2017-02-20T12:24:18.000Z", 
-      "activity": 0.014, 
-      "basaliob": 1.029, 
-      "hightempinsulin": 2.1, 
-      "bolussnooze": 0, 
-      "iob": 1.029
-    }, 
-    "enacted": {
-      "bg": 185, 
-      "temp": "absolute", 
-      "snoozeBG": 131, 
-      "recieved": true, 
+      "snoozeBG": 135, 
+      "timestamp": "2017-02-20T12:33:24.000Z", 
       "predBGs": {
         "IOB": [
+          186, 
           185, 
           184, 
           182, 
           180, 
           178, 
           175, 
-          173, 
-          169, 
-          166, 
-          162, 
-          158, 
-          154, 
-          150, 
-          146, 
-          142, 
+          172, 
+          168, 
+          164, 
+          160, 
+          156, 
+          151, 
+          147, 
+          143, 
           139, 
-          136, 
-          133, 
-          130, 
+          135, 
+          131, 
           128, 
-          126, 
-          124, 
+          125, 
           122, 
-          121, 
-          120, 
           119, 
-          118, 
           117, 
-          117, 
-          116, 
-          116, 
-          116, 
-          115
+          115, 
+          113, 
+          111, 
+          110, 
+          108, 
+          107, 
+          106, 
+          105, 
+          105, 
+          104, 
+          103, 
+          103, 
+          103, 
+          102
         ]
       }, 
+      "reason": "COB: 0, Dev: 32, BGI: -5.77, ISF: 82, Target: 96; Eventual BG 135 >= 96, temp 1.375<1.5U/hr, but 26m left and 1.375 ~ req 1.5U/hr: no action required", 
+      "COB": 0, 
+      "eventualBG": 135, 
+      "tick": "+0", 
+      "IOB": 1.019
+    }, 
+    "iob": {
+      "netbasalinsulin": 2.15, 
+      "timestamp": "2017-02-20T12:32:07.000Z", 
+      "activity": 0.0141, 
+      "basaliob": 1.019, 
+      "hightempinsulin": 2.15, 
+      "bolussnooze": 0, 
+      "iob": 1.019
+    }, 
+    "enacted": {
+      "bg": 185, 
+      "temp": "absolute", 
+      "snoozeBG": 131, 
+      "recieved": true, 
       "rate": 1.375, 
       "reason": "COB: 0, Dev: 30, BGI: -5.73, ISF: 82, Target: 96; Eventual BG 131 >= 96, temp 0.75<1.4U/hr", 
       "COB": 0, 
@@ -96,43 +98,48 @@
   "mmtune": {
     "scanDetails": [
       [
+        "916.516", 
+        1, 
+        -91
+      ], 
+      [
         "916.564", 
         1, 
-        -97
+        -98
       ], 
       [
         "916.588", 
-        1, 
-        -96
-      ], 
-      [
-        "916.612", 
         2, 
         -93
       ], 
       [
-        "916.636", 
+        "916.612", 
         3, 
         -89
       ], 
       [
+        "916.636", 
+        2, 
+        -93
+      ], 
+      [
         "916.660", 
+        2, 
+        -93
+      ], 
+      [
+        "916.684", 
         1, 
         -96
       ], 
       [
-        "916.684", 
-        3, 
-        -90
-      ], 
-      [
         "916.708", 
-        3, 
-        -92
+        2, 
+        -95
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2017-02-20T12:23:25.000Z", 
+    "setFreq": 916.612, 
+    "timestamp": "2017-02-20T12:31:13.000Z", 
     "usedDefault": false
   }
 }
