@@ -2,6 +2,25 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2017-02-19T18:01:08 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-02-19T18:01:08", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "0881125311"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-02-19T18:01:08 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-02-19T18:01:08", 
+    "_body": "00", 
+    "_head": "3339", 
+    "rate": 1.425, 
+    "_date": "0881125311"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2017-02-19T17:56:37 head[2], body[0] op[0x16]", 
     "timestamp": "2017-02-19T17:56:37", 
     "_body": "", 
